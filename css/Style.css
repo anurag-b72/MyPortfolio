@@ -249,6 +249,7 @@ a {
 }
 
 .about__data {
+    font-size: 18px;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -532,11 +533,14 @@ a {
     }
     .services__container,
     .works__container {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     .nav__item{
         /* margin: 0% 5%; */
         padding: 1% 9%;
+    }
+    .about__data img{
+        margin-left: 80px;
     }
 } 
 
@@ -550,8 +554,8 @@ a {
     .about__container,
     .skills__container,
     .services__container,
-    .works__container,
     .contact__container,
+    /* .works__container, */
     .contact__inputs {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -573,8 +577,7 @@ a {
         width: 95vw;
     }
     .about__img {
-        width: 220px;
-        margin-left: 4.5rem;
+        width: 350px;
     }
     .about__information {
         padding-left: 1rem;
@@ -624,6 +627,14 @@ a {
         padding: 1% 8%;
     }
 }
+
+@media screen and (max-width: 720px) {
+    .about__data img{
+        position: relative;
+        right: 40px;
+    }
+}
+
 @media screen and (max-width: 640px) {
     .nav__item{
         padding: 1% 7%;
@@ -637,7 +648,7 @@ a {
     }
 }
 
-  @media screen and (max-width: 410px) {
+  @media screen and (max-width: 450px) {
     .nav__item{
         padding: 1% 4%;
     }
@@ -646,8 +657,9 @@ a {
         height: 4.5rem;
     }
     .about__img {
-        width: 260px;
-        margin-left: 0.1rem;
+        width: 280px;
+        position: relative;
+        right: 40px;
     }
     .about__description{
         /* line-height: 10px; */
@@ -663,5 +675,16 @@ a {
     .about__information-title{
         font-size: 20px;
     }
-      
+    .about__detail {
+        margin-left: 10px;
+    }
 }      
+
+@media screen and (min-width: 720px) {
+    .about__data img{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
