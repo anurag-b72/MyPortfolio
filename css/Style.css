@@ -94,6 +94,7 @@ body {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     background-color: var(--first-color-lighten);
+    background-color: #e3edf2;
     color: var(--text-color);
     line-height: 1.6;
 }
@@ -685,6 +686,9 @@ a {
 }
 
   @media screen and (max-width: 450px) {
+    .works__container {
+        grid-template-columns: repeat(1, 1fr);
+    }
     .nav__item{
         padding: 1% 4%;
     }
