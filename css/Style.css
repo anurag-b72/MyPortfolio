@@ -527,6 +527,15 @@ a {
     columns: var(--text-color);
 }
 
+.footer__copy-hover{
+    color: #fff;
+    font-size: 15px;
+}
+
+.footer__copy-hover:hover {
+    color: #098bf6;
+    cursor: pointer;
+}
 
 /* ===== MEDIA QUERIES=====*/
 
