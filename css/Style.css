@@ -87,6 +87,12 @@ html {
     scroll-behavior: smooth;
 }
 
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
 body {
     margin-top: 0.5%;
     /* margin: var(--header-height) 0 0 0; */
@@ -737,3 +743,5 @@ a {
         align-items: center;
     }
 }
+
+
