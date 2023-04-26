@@ -768,11 +768,12 @@ textarea::placeholder {
     .nav__item{
         position: relative;
         right: 15px;
-        padding: 1% 1.5%;
+        padding: 1% 2.8%;
+        font-size: 0.8rem;
     }
     .l-header{
-        width: 104vw;
-        height: 4.5rem;
+        width: 100vw;
+        height: 3.5rem;
     }
     .about__img {
         width: 280px;
