@@ -500,11 +500,20 @@ a {
     position: relative;
     left: 1.5rem;
 }
+.alert {
+    width: 100%;
+    background: rgb(0, 255, 106);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    display: none;
+}
 .personal__info{
     position: relative;
     left: 10rem;
 }
-
 .contact__input {
     width: 100%;
     padding: 1rem;
@@ -768,7 +777,7 @@ textarea::placeholder {
     .nav__item{
         position: relative;
         right: 15px;
-        padding: 1% 2.8%;
+        padding: 1% 2.7%;
         font-size: 0.8rem;
     }
     .l-header{

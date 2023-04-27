@@ -41,7 +41,7 @@
                 <li class="nav__item "><a href="#education" class="nav__link ">Education</a></li>
                <!-- <li class="nav__item "><a href="#services" class="nav__link ">Services</a></li> -->
                 <li class="nav__item "><a href="#works" class="nav__link ">Works</a></li>
-               <li class="nav__item "><a href="#contact" class="nav__link ">ContactMe</a></li>
+               <li class="nav__item "><a href="#contact" class="nav__link ">Contact Me</a></li>
                 <!-- <li class="name__home"><a href="#home" class="nav__link ">Anurag</a></li> -->
             </ul>
         </nav>
@@ -375,23 +375,24 @@
         <h2 class="section-title">Get In Touch</h2>
 
         <div class="contact__container bd-grid">
-            <form action="" class="contact__form">
+            <form action="" id="contactForm" class="contact__form">
+                <p class="alert">Your message sent!</p>
                 <div class="contact__inputs">
-                    <input type="text" placeholder="Name" class="contact__input">
-                    <input type="mail" placeholder="Email" class="contact__input">
+                    <input type="text" placeholder="Name" id="name" class="contact__input">
+                    <input type="mail" placeholder="Email" id="emailId" class="contact__input">
                 </div>
 
-                <input type="text" placeholder="Project" class="contact__input">
+                <!-- <input type="text" placeholder="Project"   id="project" class="contact__input"> -->
 
-                <textarea name="" id="" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
+                <textarea name="" id="messageContent" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
 
                 <div class="my__Button">
-                    <input type="submit" value="Send Message" class="button contact__button">
+                    <input type="submit" value="Send Message" id="submit" class="button contact__button">
                 </div>
             </form>
             <div class="personal__info">
                 <div class="contact__info">
-                    <h3 class="contact__subtitle">Call Me</h3>
+                    <h3 class="contact__subtitle">Contact Number</h3>
                     <span class="contact__text">+91-9039167671</span>
                 </div>
 
@@ -425,6 +426,10 @@
             <p class="footer__copy">© 2023 <a href="#home" class="footer__copy-hover">Anurag Biswal</a>. All rights reserved.</p>
         </div>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <!-- <script src="https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js"></script> -->
+    <script src="./script/contactForm.js"></script>
 </body>
 
 </html>
