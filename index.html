@@ -378,13 +378,13 @@
             <form action="" id="contactForm" class="contact__form">
                 <p class="alert">Your message sent!</p>
                 <div class="contact__inputs">
-                    <input type="text" placeholder="Name" id="name" class="contact__input">
-                    <input type="mail" placeholder="Email" id="emailId" class="contact__input">
+                    <input type="text" placeholder="Name" id="name" class="contact__input" required>
+                    <input type="mail" placeholder="Email" id="emailId" class="contact__input" required>
                 </div>
 
-                <!-- <input type="text" placeholder="Project"   id="project" class="contact__input"> -->
+                <!-- <input type="text" placeholder="Project"   id="project" class="contact__input" required> -->
 
-                <textarea name="" id="messageContent" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
+                <textarea name="" id="messageContent" cols="0" rows="10" placeholder="Message" class="contact__input" required></textarea>
 
                 <div class="my__Button">
                     <input type="submit" value="Send Message" id="submit" class="button contact__button">
