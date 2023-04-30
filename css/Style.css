@@ -812,7 +812,7 @@ textarea::placeholder {
     }
     .personal__info{
         position: relative;
-        left: 1rem;
+        left: 0.5rem;
         /* width: 80%; */
     }
 }      
