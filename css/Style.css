@@ -776,8 +776,8 @@ textarea::placeholder {
     }
     .nav__item{
         position: relative;
-        right: 15px;
-        padding: 1% 2.7%;
+        right: 10px;
+        padding: 1% 2%;
         font-size: 0.8rem;
     }
     .l-header{
