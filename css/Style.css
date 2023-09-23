@@ -289,6 +289,7 @@ a {
 
 .my__Button div,
 .my__Button input {
+    margin: 1rem;
     width: 212px;
     outline: 0;
     grid-gap: 8px;
