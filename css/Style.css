@@ -283,6 +283,16 @@ a {
     background-color: var(--first-color-dark);
 }
 
+.home__social-link-separate {
+    display: inline-flex;
+    color: var(--first-color-lighten);
+    font-size: 1.1rem;
+    border-radius: 50%;
+    padding: 0.4rem;
+    margin: 0 var(--mb-1);
+    transition: 0.3s;
+}
+
 /* .home__button {
     width: 100%;
 } */
