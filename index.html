@@ -438,13 +438,20 @@
             </div>
 
             <!-- <p class="footer__copy">&copy; No Copyrights, feel free to use this template in my Github Repository.</p> -->
-            <p class="footer__copy">© 2023 <a href="#home" class="footer__copy-hover">Anurag Biswal</a>. All rights reserved.</p>
+            <p class="footer__copy">© <span id="currentYear"></span> <a href="#home" class="footer__copy-hover">Anurag Biswal</a>. All rights reserved.</p>
         </div>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
     <!-- <script src="https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js"></script> -->
     <script src="./script/contactForm.js"></script>
+    <script>
+        // Get the current year
+        var currentYear = new Date().getFullYear();
+
+        // Update the content of the span element with the current year
+        document.getElementById('currentYear').textContent = currentYear;
+    </script>
 </body>
 
 </html>
