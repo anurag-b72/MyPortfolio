@@ -207,6 +207,7 @@ a {
     padding: 5px 0;
     position: relative;
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 0.3s ease-in-out;
   }
@@ -347,7 +348,8 @@ a {
 }
 
 .about__description {
-    margin-bottom: var(--mb-4);
+    margin-bottom: var(--mb-5);
+    text-align: center;
 }
 
 .about__img {
@@ -525,10 +527,6 @@ a {
     text-align: initial;
 }
 
-.about__description {
-    margin-bottom: var(--mb-5);
-}
-
 .about__information {
     padding-left: 4rem;
 }
@@ -661,6 +659,13 @@ textarea::placeholder {
 }
 
 /* ===== MEDIA QUERIES=====*/
+
+
+@media screen and (min-width: 888px) {
+    .leetcode-title{
+        text-align: center;
+    }
+}
 
 
 @media screen and (max-width: 1200px) {
